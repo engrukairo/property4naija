@@ -1,0 +1,22 @@
+--
+-- Database: `pro4nj`
+-- Database Username: `pro4nj`
+-- Database User Password: `pro4nj`
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `users`
+--
+
+DROP TABLE IF EXISTS `users`;
+CREATE TABLE IF NOT EXISTS `users` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `name` varchar(100) DEFAULT NULL,
+  `email` varchar(100) DEFAULT NULL,
+  `phone` varchar(20) DEFAULT NULL,
+  `dob` varchar(40) DEFAULT NULL,
+  `password` varchar(100) DEFAULT NULL,
+  `username` varchar(100) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
